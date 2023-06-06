@@ -31,7 +31,7 @@ class App extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment
                           .end, // Row 안의 Column으로 지정한 부분 우측 정렬
                       children: [
-                        Text('반가워, 지윤.',
+                        Text('반가워, 금진.',
                             style: TextStyle(
                               color: Colors.white,
                               fontSize: 28,
@@ -128,7 +128,7 @@ class App extends StatelessWidget {
                   isInverted: true,
                 ),
                 const CurrencyCard(
-                  order: 2,
+                  order: 3,
                   name: 'Dollar',
                   code: 'DOL',
                   amount: '1000',
